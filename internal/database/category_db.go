@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 
-	"github.com/MariaGabrielaReis/imersao-full-cycle-product-catalog/internal/entity"
+	"github.com/MariaGabrielaReis/ecobricks-product-catalog/internal/entity"
 )
 
 type CategoryDB struct {

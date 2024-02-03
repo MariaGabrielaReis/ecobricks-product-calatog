@@ -1,4 +1,4 @@
-module github.com/MariaGabrielaReis/imersao-full-cycle-product-catalog
+module github.com/MariaGabrielaReis/ecobricks-product-catalog
 
 go 1.21.6
 
