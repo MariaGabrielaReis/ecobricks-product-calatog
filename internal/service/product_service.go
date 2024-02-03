@@ -33,8 +33,8 @@ func (cs *ProductService) GetProduct(id string) (*entity.Product, error) {
 	return product, nil
 }
 
-func (cs *ProductService) GetProductByCategory(categoryId string) ([]*entity.Product, error) {
-	products, err := cs.ProductDB.GetProductByCategory(categoryId)
+func (cs *ProductService) GetProductsByCategory(categoryId string) ([]*entity.Product, error) {
+	products, err := cs.ProductDB.GetProductsByCategory(categoryId)
 
 	if err != nil {
 		return nil, err
