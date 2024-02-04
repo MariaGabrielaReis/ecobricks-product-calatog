@@ -38,7 +38,7 @@ func main() {
 	c.Get("/category/{id}", webCategoryHandler.GetCategory)
 	c.Post("/category", webCategoryHandler.CreateCategory)
 
-	c.Get("/product", webProductHandler.GetProduct)
+	c.Get("/product", webProductHandler.GetProducts)
 	c.Get("/product/{id}", webProductHandler.GetProduct)
 	c.Get("/product/category/{categoryID}", webProductHandler.GetProductsByCategory)
 	c.Post("/product", webProductHandler.CreateProduct)
